@@ -21,9 +21,9 @@ We recommend the uniform sampling variants because they run significantly faster
 
 | Algorithm        | Security   |    Public key size |
 | ---------------- | ---------- | ------------------ |
-| rlwe256_uniform  | toy        |    3561 bits       |
-| rlwe512_uniform  | 128 bits   |    7498 bits       |
-| rlwe1024_uniform | 256 bits   |    15690 bits      |
+| rlwe256_uniform  | toy        |    3584 bits       |
+| rlwe512_uniform  | 128 bits   |    7680 bits       |
+| rlwe1024_uniform | 256 bits   |    16384 bits      |
 
 The algorithm is described in the paper "A Practical Key Exchange for the Internet using Lattice Cryptography" by Vikram Singh, available at http://eprint.iacr.org/2015/138. This in turn is a version of the passively secure key exchange described in the paper "Lattice Cryptography for the Internet" by Chris Peikert, available at http://eprint.iacr.org/2014/070.
 
